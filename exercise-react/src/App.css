@@ -1,0 +1,112 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #282c34;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #374f7c;
+  border: 5px solid #CBBD93;
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  place-items: center;
+}
+
+.app {
+  color: white;
+  padding: 20px 20px 300px 20px;
+}
+
+.title{
+  background-color: #333333;
+  padding: 2px;
+}
+
+.title h1{
+  margin: 0;
+}
+
+.title p{
+  margin: 0;
+}
+
+footer {
+  background-color: #33333380;
+  padding: 2px;
+}
+
+table {
+  background-color: black;
+  border-collapse: collapse;
+  width: 500px;
+}
+
+tr th {
+  border: 1px solid #E1A95F;
+  padding: 5px;
+  color: #CBBD93;
+  text-align: center;
+  font-style: bold;
+  background-color: #333333AA;
+}
+
+tr td {
+  border: 1px solid #E1A95F;
+  padding: 5px;
+  color: #CBBD93;
+  text-align: center;
+  background-color: #333333;
+}
+
+.app-nav a:hover {
+  color:rgb(86, 126, 133);
+  background-color:rgb(247, 218, 174);
+}
+
+.app-nav a {
+  padding: 0px 20px 5px 20px;
+  background-color:#1a1a1a;
+  text-decoration:none;
+  color: #CBBD93;
+  line-height: 1;
+  vertical-align:middle;
+  border-right: 2px solid #1a1a1a;
+  font-size:1.3em;
+  font-weight:bold;
+  border-radius:3px;
+  margin: 5px
+}
+
+button {
+  border-radius: 8px;
+  border: 1px white transparent;
+  padding: .6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: white;
+  float: right;
+}
+
+.collection-container {
+  padding: 32px;
+}
+
+.reactIcon:hover{
+  color: hsl(22, 100%, 50%);
+  background-color: #1a1a1a;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+  cursor: pointer;
+}
